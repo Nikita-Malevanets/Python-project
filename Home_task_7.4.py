@@ -9,6 +9,7 @@ def common_elements():
         if item % 5 == 0:
             second_list.append(item)
 
+
     first_list = set(first_list)
     second_list = set(second_list)
     same_elements = first_list.intersection(second_list)
